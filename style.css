@@ -1,5 +1,5 @@
 body {
-    background-color: #9D0A0A;
+    background-color: #0b294b;
     color: black;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #c77dff;
+    background-color: #AEFFAB;
 }
 
 main {
@@ -73,7 +73,7 @@ card {
     background-color: white;
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #6b2d5c;
+    border-left: 6px solid #6ebb6b;
     border-radius: 10px;
 }
 
