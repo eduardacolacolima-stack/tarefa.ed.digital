@@ -11,6 +11,14 @@
     --cor-rodape: rgb(36, 36, 36);
 }
 
+.tema-escuro {
+    --cor-fundo: black;
+    --cor-texto-: white;
+    --cor-principal: #5b49ad;
+    --cor-superficie: black;
+    --cor-card: black;
+}
+
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
@@ -134,3 +142,15 @@ button:hover {
     gap: 20px;
     flex-wrap: wrap;
 }
+
+.btn-tema {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    font-size: 22px;
+}
+
+
