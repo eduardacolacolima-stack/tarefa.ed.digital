@@ -1,4 +1,4 @@
-:root{
+:root {
     --cor-fundo: #011020;
     --cor-texto: rgb(255, 255, 255);
     --cor-principal: #030120;
@@ -25,6 +25,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
+
 header {
     background-color: var(--cor-principal);
     color: (--cor-clara);
@@ -40,7 +41,7 @@ h2 {
     color: var(--cor-principal);
 }
 
-p { 
+p {
     font-size: 18px;
     line-height: 1.6;
 }
@@ -64,15 +65,15 @@ nav a:hover {
 }
 
 main {
-    width:80%;
+    width: 80%;
     margin: auto;
 }
 
 section {
     background-color: var(--cor-superfície);
-    margin:20px 0;
-padding: 20px;
-border-radius: 12px;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 img {
@@ -149,8 +150,6 @@ button:hover {
     bottom: 20px;
     width: 50px;
     height: 50px;
-    border-radius:50%;
+    border-radius: 50%;
     font-size: 22px;
 }
-
-
